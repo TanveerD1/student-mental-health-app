@@ -259,3 +259,9 @@ MANIFEST
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store

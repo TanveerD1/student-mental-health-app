@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.db.connection import engine, Base
+from app.backend.db.connection import engine, Base  # Fixed import path
 
 # Import your models to create tables
-from app.db import models
+from app.backend.db import models  # Fixed import path
 
 # Create all tables in the database
 Base.metadata.create_all(bind=engine)

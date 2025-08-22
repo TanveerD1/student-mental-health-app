@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Float, Text, DateTime, ForeignKey, UUID
 from sqlalchemy.sql import func
-from app.db.connection import Base
+from .connection import Base
 import uuid
 
 class User(Base):
